@@ -1,0 +1,7 @@
+#!/bin/sh
+echo '<<<chia_blockchain>>>'
+
+CHIA_INSTALLATION_PATH=/home/farmer/chia-blockchain
+CHIA_INSTALLATION_USER=farmer
+
+su - ${CHIA_INSTALLATION_USER} -c "${CHIA_INSTALLATION_PATH}/venv/bin/chia show -s"
