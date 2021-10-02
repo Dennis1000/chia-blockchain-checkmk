@@ -17,7 +17,7 @@ def check_chia_farm(section):
 	for lineArray in section:
 		line = ' '.join(lineArray)
 		if line.startswith("Plot count"):
-			 plots  = int(lineArray[2])
+			 plots  = int(lineArray[5])
 
 		if line.startswith("Total size of plots"):
 			plotsize = float(lineArray[4])
