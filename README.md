@@ -10,4 +10,5 @@ A Checkmk 2.0+ agent plugin for monitoring your Chia Blockchain Nodes and Chia F
 
 # History
 v1.01 Update server plugin "chia_farm.py" for 2.1.9
+
 v1.00 Initial commit.
